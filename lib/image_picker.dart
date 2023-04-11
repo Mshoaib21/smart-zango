@@ -85,6 +85,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                         )
                       : Container(
                           child: Center(
+
                             child: Image.file(File(image!.path).absolute,
                             height: 100,
                               width: 100,
